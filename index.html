@@ -1,0 +1,294 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The css for the font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- The css for the font -->
+
+    <!-- The main css -->
+    <link rel="stylesheet" href="/css/tailwindOutput.css">
+    <!-- The main css -->
+
+    <!-- The icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css"
+     rel="stylesheet">
+    <!-- The icon cdn -->
+
+   <!-- The script for jquery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <!-- The script for jquery -->
+    
+    <title>My Portofolio</title>
+</head>
+<body>
+
+    <!-- The Home section -->
+    <section class="home_section bg-slate-500 lg:h-[730px]" id="home">
+        <div >
+            <!-- class="flex items-center justify-center flex-col gap-[100px]" -->
+            <div class="flex items-center justify-between px-0 lg:px-[80px]
+             fixed w-full top-0 left-0 z-30 bg-slate-500">
+                <a class="toscroll" href="#home">
+                    <img class="max-w-52 h-[80px] lg:h-[150px] cursor-pointer" src="./public/images/msd_logo/MSD_logo.jpg" 
+                    alt="" title="Mamadou Saifou Diallo ">
+                </a>
+                <nav>
+                    <ul class="fixed w-full h-0 p-0 font-secondary 
+                    overflow-hidden lg:text-gray-300 top-[100px] text-[30px] 
+                    left-0 right-0 flex flex-col gap-6
+                    lg:flex  lg:relative 
+                    lg:flex-row lg:p-0 lg:top-0
+                    lg:h-full transition-all duration-500" id="navBarId">
+                             <!--  
+                                "
+
+                    fixed w-full h-0 p-0 flex flex-col gap-6
+                            font-primary overflow-hidden text-[25px] top-[100px] left-0 right-0 
+                            lg:relative lg:flex lg:flex-row  lg:p-0 lg:top-0 lg:h-full
+                            transition-all duration-300
+                        -->
+                        <li class="hover:text-orange-400">
+                            <a class="toscroll" href="#home">Home</a>
+                        </li>
+                        <li class="hover:text-orange-400">
+                            <a class="toscroll" href="#projects">Projects</a>
+                        </li>
+                        <li class="hover:text-orange-400">
+                            <a class="toscroll" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="hover:text-orange-400">
+                            <a class="toscroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="lg:hidden flex items-center justify-center
+                            w-[80px] h-[80px] rounded-full text-5xl hover:rounded-full 
+                            hover:bg-slate-100 cursor-pointer transition ease-in mr-2" id="menuButton">
+                    <!-- Burger menu -->
+                    <i class="ri-menu-4-line text-gray-300"></i>
+                    <!-- Burger menu -->
+                </div>
+            </div>
+
+            <!-- The content in the section area -->
+            <div class="  h-[650px] flex items-center 
+                        lg:gap-40 gap-2 flex-wrap
+                        lg:flex-nowrap justify-center pt-[80px] lg:pt-[250px]">
+                <!-- Text Area -->
+                <div class="text_home flex flex-col  items-center text-center ">
+                    <div class="max-w-[600px] text-gray-300 my-5 flex
+                                flex-col items-center">
+                        <h1 class="font-primary lg:text-7xl
+                                text-3xl">
+                            Mamadou Saifou Diallo
+                        </h1>
+                        <h3 class="xl:text-5xl text-2xl font-secondary">
+                            I'm a Hobby Developper
+                        </h3>
+                    </div>
+                    <div class="max-w-[600px] font-secondary flex
+                            flex-col items-center">
+                        <p class="font-secondary xl:text-3xl text-xl text-gray-300">
+                            Since 4 years I'm troggling to become a 
+                            <span class="font-bold">
+                                Software Developper
+                            </span>.
+                            Now I'm proud to say that I will become a Developper.
+                            Because, I quit my job as a Field Service Technician.
+                            I have experiences in 
+                            <span class="font-bold">
+                                Java(Spring boot), Javascript, Html, CSS, Tailwind CSS and some PHP.
+                            </span>
+                        </p>
+                    </div>
+                    <!-- For the social media icons -->
+                    <!-- <div class="bg-white lg:h-[100px] lg:w-[480px] flex 
+                            items-center justify-center gap-8
+                            mt-8 rounded-lg border-[5px] border-orange-300">
+                        <i class="ri-linkedin-box-fill text-5xl lg:text-8xl"></i>
+                        <i class="ri-facebook-circle-fill text-5xl lg:text-8xl"></i>
+                        <i class="ri-instagram-line text-5xl lg:text-8xl"></i>
+                        <i class="ri-tiktok-line text-5xl lg:text-8xl"></i>
+                    </div> -->
+                    <!-- For the social media icons -->
+
+                </div>
+                <!-- Text Area -->
+                <!-- For my image -->
+                <div class="profile_image lg:w-[450px] w-[200px] flex
+                            items-center justify-center text-center">
+                    <img src="./public/images/Profil_Pucture/ProfilBild.JPG" alt="" class="
+                    w-[300px] xl:w-[350px] rounded-tl-[100px] xl:rounded-tr-[200px] rounded-br-[100px]
+                     xl:rounded-bl-[200px] 
+                     hover:scale-105 hover:border-orange-400 hover:border-[7px]
+                     transition-all ease-in duration-500">
+                </div>
+                <!-- For my image -->
+            </div>
+            <!-- The content in the section area -->
+
+
+        </div>
+    </section>
+    <!-- The Home section -->
+
+
+    <!-- Projects Section -->
+    <section class="projects_section bg-slate-200  " id="projects">
+        <h1 class="font-primary text-5xl text-center py-[70px] text-slate-500">My Projects, click to see the code source or the page</h1>
+        <div class="box_wrapper py-[50px] lg:px-[100px] flex items-center justify-center
+                    flex-wrap gap-5 text-center"> 
+            <a href="https://github.com/Saifou49/Java/tree/main/RegistrationApp">
+                <div class="box ">
+                        <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Java Desktop</h2>
+                        <div class="flex items-center justify-center flex-wrap py-[20px]">
+                            <img src="public/images/Project_Pictures/JavaDesktop.png" alt="" class="lg:w-[200px]
+                                    lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover ">
+                        </div>
+                        <p class="text-[25px] font-secondary">This is a registration app that I created juste with Java</p>
+                </div>
+            </a>
+            <a href="https://github.com/Saifou49/JavaSpringBoot">
+                <div class="box">
+                    <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Java Spring boot</h2>
+                    <div class="flex items-center justify-center flex-wrap py-[20px]">
+                        <img src="public/images/Project_Pictures/SpringRegistration.png" alt="" class="lg:w-[200px]
+                        lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover">
+                    </div>
+                    <p class="text-[25px] font-secondary">This is a registration app that I created with java using spring boot</p>
+                </div>
+            </a>
+            <a href="https://the-dashboard-snowy.vercel.app/">
+                <div class="box">
+                    <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Dashboard</h2>
+                    <div class="flex items-center justify-center flex-wrap py-[20px]">
+                        <img src="public/images/Project_Pictures/AdminDashBoard.png" alt="" class="lg:w-[200px]
+                        lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover">
+                    </div>
+                    <p class="text-[25px] font-secondary">This is a dashboard created with html, tailwind css, and javascript</p>
+                </div>
+            </a>
+            <a href="https://my-programming-word.vercel.app/">
+                <div class="box">
+                    <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Programming </h2>
+                    <div class="flex items-center justify-center flex-wrap py-[20px]">
+                        <img src="public/images/Project_Pictures/Programming_world.png" alt="" class="lg:w-[200px]
+                        lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover">
+                    </div>
+                    <p class="text-[25px] font-secondary">A modern landing page created with html, tailwind css and javascript(Youtube)</p>
+                </div>
+            </a>
+            <a href="https://kanban-project-five-gamma.vercel.app/">
+                <div class="box">
+                    <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Kanban_Todo</h2>
+                    <div class="flex items-center justify-center flex-wrap py-[20px]">
+                        <img src="public/images/Project_Pictures/Kanban_Todo.png" alt="" class="lg:w-[200px]
+                        lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover">
+                    </div>
+                    <p class="text-[25px] font-secondary">Todo Dashboard created with html, tailwind css and javascript</p>
+                </div>
+            </a>
+            <a href="https://new-repo-five-xi.vercel.app/">
+                <div class="box">
+                    <h2 class="text-2xl font-primary text-slate-500 py-[20px]">Weather App</h2>
+                    <div class="flex items-center justify-center flex-wrap py-[20px]">
+                        <img src="public/images/Project_Pictures/WeatherApp.png" alt="" class="lg:w-[200px]
+                        lg:h-[200px] w-[150px] h-[150px] rounded-full object-cover">
+                    </div>
+                    <p class="text-[25px] font-secondary">Weather app created with html, tailwind css and javascript</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+    <!-- Projects Section -->
+
+    <!-- Skills section -->
+    <section class="scroller projects_section bg-slate-300 flex flex-col gap-10
+                    py-[50px] items-center justify-center xl:h-[730px]" data-speed="fast"  id="skills">
+        <h1 class="header_skills font-primary text-6xl text-sky-400">My Skills</h1>
+        
+        <div class="scroller__inner the_skills my-[30px] flex gap-10  justify-center " >
+            
+            <div class=" w-[200px] h-[200px] grid items-center text-center
+                    border-4 ">
+                <i class="ri-html5-fill text-[100px]"></i>
+                <h2 class="text-xl font-secondary">HTML 5</h2>
+            </div>
+        
+            <div class=" w-[200px] h-[200px] grid items-center text-center
+                    border-4 ">
+                    <i class="ri-css3-fill text-[100px]"></i>
+                <h2 class="text-xl font-secondary">CSS 3</h2>
+            </div>
+            <div class=" w-[200px] h-[200px] grid items-center text-center
+                    border-4 ">
+                <i class="ri-javascript-fill text-[100px]"></i>
+                <h2 class="text-xl font-secondary">Javascript</h2>
+            </div>
+            <div class=" w-[200px] h-[200px] grid items-center text-center
+                    border-4 ">
+                <i class="ri-tailwind-css-fill text-[100px]"></i>
+                <h2 class="text-xl font-secondary">Tailwind CSS</h2>
+            </div>
+            <div class=" w-[200px] h-[200px] grid items-center text-center
+                    border-4 ">
+                <i class="ri-java-line text-[100px]"></i>
+                <h2 class="text-xl font-secondary">Java</h2>
+            </div>
+        
+        </div>
+
+    </section>
+    <!-- Skills section -->
+
+    <!-- Footer  -->
+    <footer class=" bg-slate-700  display flex flex-col gap-10
+                    py-[50px] items-center " id="contact">
+        <div class=" flex flex-col gap-10 text-orange-100 text-2xl
+         flex-wrap text-center lg:text-left">
+            <h1 class="contacts_header text-4xl font-primary text-orange-100">Contact Me:</h1>
+            <div class="contacts_details">
+                Email: msaifoudiallo@gmail.com <br>
+                Phone: +49 157 34 13 89 95
+            </div>
+            <p class="text-center text-4xl py-10 xl:border-t">
+                Copyright &copy; Mamadou Saifou Daillo GmbH 2024.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- Footer  -->
+
+
+        <!-- The script from scroll reveal -->
+        <script src="/js/scrollreveal.min.js"></script>
+        <!-- The script from scroll reveal -->
+    
+        <!-- swiper -->
+        <script src="/js/swiper-bundle.min.js"></script>
+        <!-- swiper -->
+
+
+    <!-- The main script file -->
+    <script src="/javascript/main.js"></script>
+    <!-- The main script file -->
+
+
+
+    <script>
+        $("a.toscroll").on("click", function(e) {
+        var url = e.target.href;
+        var hash = url.substring(url.indexOf("#") + 1);
+        $("html, body").animate({ scrollTop: $("#" + hash).offset().top }, 1500);
+        return false;
+        });
+    </script>
+</body>
+</html>

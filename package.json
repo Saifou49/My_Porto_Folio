@@ -1,0 +1,16 @@
+{
+  "name": "mynewportofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css" : "tailwindcss -i ./src/css/main.css -o ./css/tailwindOutput.css",
+    "watcher" : "tailwindcss -i ./src/css/main.css -o ./css/tailwindOutput.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
