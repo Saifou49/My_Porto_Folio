@@ -6,7 +6,7 @@
 
 
 .navBar_is_clicked{
-    @apply top-40 left-0  h-[300px]  p-6 bg-gray-300 text-black;
+    @apply top-[92px] left-0  h-[300px]  p-6 bg-gray-300 text-black;
 }
 
 /* .box_wrapper{

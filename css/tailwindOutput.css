@@ -662,10 +662,6 @@ video {
   width: 200px;
 }
 
-.w-\[300px\] {
-  width: 300px;
-}
-
 .w-\[80px\] {
   width: 80px;
 }
@@ -763,6 +759,11 @@ video {
   border-color: rgb(253 186 116 / var(--tw-border-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -805,6 +806,11 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-\[20px\] {
@@ -931,7 +937,7 @@ video {
 }
 
 .navBar_is_clicked {
-  top: 10rem;
+  top: 92px;
   left: 0px;
   height: 300px;
   --tw-bg-opacity: 1;
