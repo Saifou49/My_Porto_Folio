@@ -17,6 +17,13 @@ menuButton.addEventListener('click', () => {
     nav_bar.classList.toggle('navBar_is_clicked');
 });
 
+window.addEventListener('resize', () =>  {
+    if(window.innerWidth >= 1060 && nav_bar.classList.contains('navBar_is_clicked'))
+        {
+            nav_bar.classList.remove('navBar_is_clicked');
+        }
+});
+
 // The swiper event
 const swiper = new Swiper('.swiper', {
     loop: true,

@@ -808,11 +808,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -937,7 +932,7 @@ video {
 }
 
 .navBar_is_clicked {
-  top: 92px;
+  top: 80px;
   left: 0px;
   height: 300px;
   --tw-bg-opacity: 1;
@@ -1011,6 +1006,12 @@ video {
 }
 
 /* The infinit swiper */
+
+.after\:bg-slate-500::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
 
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
@@ -1088,6 +1089,14 @@ video {
 
   .lg\:w-\[480px\] {
     width: 480px;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .lg\:w-\[350px\] {
+    width: 350px;
   }
 
   .lg\:flex-row {
