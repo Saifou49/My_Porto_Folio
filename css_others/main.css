@@ -43,9 +43,9 @@
   }
   
   .scroller[data-animated="true"] .scroller__inner {
-    width: max-content;
+    width: 200px;
     flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 40s)
+    animation: scroll var(--_animation-duration, infinite)
       var(--_animation-direction, forwards) linear infinite;
   }
   
@@ -58,7 +58,7 @@
   }
   
   .scroller[data-speed="fast"] {
-    --_animation-duration: 15s;
+    --_animation-duration: 10s;
   }
   
   .scroller[data-speed="slow"] {
@@ -66,9 +66,12 @@
   }
   
   @keyframes scroll {
+    from{
+      transform:translateX(300px) ;
+    }
     to {
-      transform: translateX(calc(-30% - 0.5rem));
+      transform: translateX(-400px);
     }
   }
   
-/* The infinit swiper */
+/* The infinit swiper calc(-60% - 0.1rem)*/
