@@ -999,11 +999,11 @@ video {
 
 @keyframes scroll {
   from{
-    transform:translateX(300px) ;
+    transform:translateX(450px) ;
   }
 
   to {
-    transform: translateX(-400px);
+    transform: translateX(-500px);
   }
 }
 
